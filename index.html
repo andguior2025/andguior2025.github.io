@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tarjeta Especial</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+    color:white;
+}
+
+.container{
+    background: rgba(0,0,0,0.4);
+    padding:20px;
+    border-radius:20px;
+    width:90%;
+    max-width:400px;
+}
+
+video{
+    width:100%;
+    border-radius:15px;
+    margin-bottom:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    background:white;
+    color:#ff4f81;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#ffe3ec;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <h2>💖 Mensaje Especial 💖</h2>
+
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Tu navegador no soporta video.
+    </video>
+
+    <button onclick="window.location.href='https://wa.me/573000000000'">
+        📲 WhatsApp
+    </button>
+
+    <button onclick="window.location.href='https://youtube.com'">
+        ▶️ Ver más videos
+    </button>
+
+    <button onclick="alert('Gracias por escanear ❤️')">
+        🎁 Sorpresa
+    </button>
+
+</div>
+
+</body>
+</html>
